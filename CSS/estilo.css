@@ -1,0 +1,353 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: rgb(23, 23, 23);
+}
+
+header {
+    background-color: yellow;
+    border-radius: 45px;
+    height: 180px;
+}
+
+.caja {
+    display: inline-block;
+}
+
+/* Soy conciente de que use demaciado Position, pero solo puse para que se vea lindo :P */
+
+/*INICIO*/
+.logo {
+    width: 800px;
+    position: relative;
+    top: 20px;
+    left: 45px;
+}
+
+.menu li {
+    display: inline;
+    position: relative;
+    bottom: 75px;
+    left: 180px;
+}
+
+.item{
+    text-decoration: none;
+    font-size: 40px;
+    color:rgb(23, 23, 23);
+}
+
+.imagenPrincipal {
+    position: relative;
+    left: 350px;
+    width: 1150px;
+    border: 5px solid yellow;
+}
+
+.caja2 {
+    display: inline-block;
+}
+
+.caja2 ul li {
+    color: white;
+    font-size: 28px;
+}
+
+.itemUno {
+    position: relative;
+    left: 80px;
+    background-color: rgb(23, 23, 23);
+    border: 5px solid yellow;
+    padding: 25px;
+    list-style: none;
+}
+
+.itemDos {
+    position: relative;
+    left: 335px;
+    background-color: rgb(23, 23, 23);
+    border: 5px solid yellow;
+    padding: 25px;
+    list-style: none;
+}
+
+.itemTres {
+    position: relative;
+    left: 600px;
+    background-color: rgb(23, 23, 23);
+    border: 5px solid yellow;
+    padding: 25px;
+    list-style: none;
+}
+
+.redesMetallica li {
+    list-style: none;
+    position: relative;
+    text-align: center;
+    right: 18px;
+}
+
+.item2 {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+
+.index { 
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    font-size: 25px;
+    text-align: right;
+    color: white;
+}
+
+
+/*HISTORIA*/
+
+.historia {
+    font-size: 40px;
+    text-align: left;
+    color: white;
+
+}
+
+.tyv {
+    display: inline-block;
+}
+
+.tyv div p {
+    width: 750px;
+    font-size: 20px;
+    color: white;
+}
+
+.video a iframe {
+    position: relative;
+    left: 190px;
+}
+
+.texto {
+    font-size: 20px;
+    color: white;
+}
+
+.titulo {
+    font-size: 40px;
+    text-align: left;
+    color: white;
+
+}
+
+.t1 {
+    font-size: 30px;
+    text-align: right;
+    color: white;
+    position: relative;
+    right: 50px;
+}
+
+
+/*INTEGRANTES*/
+
+.integrantes {
+    display: inline-block;
+}
+
+.integrantes div p{
+    width: 1500px;
+    font-size: 20px;
+    text-align: right;
+    color: white;
+    position: relative;
+    left: 30px;
+}
+
+.conjuntoUno a img {
+   width: 250px;
+   position: relative;
+   left: 100px;
+   border: 10px solid yellow;
+}
+
+.t2 {
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    position: relative;
+    left: 70px;
+}
+
+.integrantesDos {
+    display: inline-block;
+}
+
+.integrantesDos div p{
+    width: 1500px;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    position: relative;
+    left: 90px;
+}
+
+.conjuntoDos a img {
+    width: 250px;
+    position: relative;
+    left: 20px;
+    border: 10px solid yellow;
+ }
+
+ .titulo2 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.filaUno {
+    display: inline-block;
+    color: white;
+}
+
+
+/*DISCOGRAFIA*/
+
+.album {
+    display: inline-block;
+}
+
+.album div p{
+    font-size: 20px;
+    color: white;
+    text-align: center
+}
+
+.discoUno div a img {
+    width: 200px;
+    border: 5px solid yellow;
+}
+
+.discoDos div a img {
+    width: 200px;
+    border: 5px solid yellow;
+}
+
+.discoTres div a img {
+    width: 200px;
+    border: 5px solid yellow;
+}
+
+.discoCuatro div a img {
+    width: 200px;
+    border: 5px solid yellow;
+}
+
+.discoCinco div a img {
+    width: 200px;
+    border: 5px solid yellow;
+}
+
+.discoSeis div a img {
+    width: 200px;
+    border: 5px solid yellow;
+}
+
+.discoUno {
+    position: relative;
+    left: 290px;
+}
+
+.discoDos {
+    position: relative;
+    left: 350px;
+}
+
+.discoTres {
+    position: relative;
+    left: 410px;
+}
+
+.discoCuatro {
+    position: relative;
+    left: 470px;
+}
+
+.discoCinco {
+    position: relative;
+    left: 530px;
+}
+
+.discoSeis {
+    position: relative;
+    left: 840px;
+}
+
+.listas div{
+    display: inline-block;
+    width: 500px;
+}
+
+.garage {
+    border: 5px solid yellow;
+    position: relative;
+    left: 100px;
+}
+
+.live {
+    border: 5px solid yellow;
+    position: relative;
+    left: 170px;
+}
+
+.lulu {
+    border: 5px solid yellow;
+    position: relative;
+    left: 240px;
+}
+
+
+
+
+.slider a img {
+    width: 1000px;
+    position: relative;
+    left: 470px;
+}
+
+.contacto {
+    font-size: 35px;
+    color: white;
+}
+
+.miHistoria p {
+    font: 28px;
+    color: white;
+    width: 800px;
+}
+
+.formulario div{
+    display: inline-block;
+}
+
+form {
+    position: relative;
+    bottom: 150px;
+    left: 400px;
+}
+
+form h2 {
+    font-size: 35px;
+    color: white;
+}
+
+form label {
+    font-size: 20px;
+    color: white;
+}
