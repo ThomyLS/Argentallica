@@ -417,7 +417,7 @@ footer p {
         width: 100%;
     }
 
-    .video  {
+    .video {
         border: none;
     }
 
@@ -493,7 +493,7 @@ footer p {
             "titulo2 titulo2 titulo2"
             "texto2 texto2 texto2"
             "footer footer footer"
-            ;
+        ;
     }
 
     .logo {
@@ -534,163 +534,303 @@ footer p {
 
 }
 
-
 /*INTEGRANTES*/
-
-.integrantes {
-    display: inline-block;
+.contenedorIntegrantes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    grid-template-areas:
+        "header header"
+        "imagen imagen"
+        "t1 t1"
+        "jamesT jamesT"
+        "james james"
+        "larsT larsT"
+        "lars lars"
+        "kirkT kirkT"
+        "kirk kirk"
+        "robT robT"
+        "rob rob"
+        "t2 t2"
+        "cliffT cliffT"
+        "cliff cliff"
+        "jasonT jasonT"
+        "jason jason"
+        "daveT daveT"
+        "dave dave"
+        "footer footer";
 }
 
-.integrantes div p {
-    width: 1500px;
-    font-size: 20px;
-    text-align: right;
+.img {
+    grid-area: imagen;
+    justify-self: center;
+    align-self: center;
+    border-right: 10px solid rgb(16, 16, 16);
+    border-bottom: 10px solid rgb(16, 16, 16);
+}
+
+.titulo {
+    font-size: 40px;
     color: white;
-    position: relative;
-    left: 30px;
+    grid-area: t1;
+    margin-left: 45px;
 }
 
-.conjuntoUno a img {
-    width: 250px;
-    position: relative;
-    left: 100px;
-    border: 10px solid yellow;
-}
-
-.t2 {
+.james {
     font-size: 30px;
-    text-align: left;
     color: white;
-    position: relative;
-    left: 70px;
+    grid-area: jamesT;
+    margin-left: 45px;
 }
 
-.integrantesDos {
-    display: inline-block;
+.jamesH {
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: james;
 }
 
-.integrantesDos div p {
+.textoUno p {
     width: 1500px;
     font-size: 20px;
-    text-align: left;
     color: white;
-    position: relative;
-    left: 90px;
 }
 
-.conjuntoDos a img {
+.int_Img {
     width: 250px;
-    position: relative;
-    left: 20px;
     border: 10px solid yellow;
+}
+
+.int_Img2 {
+    border-right: 10px solid rgb(16, 16, 16);
+    border-bottom: 10px solid rgb(16, 16, 16);
+}
+
+.lars {
+    font-size: 30px;
+    color: white;
+    grid-area: larsT;
+    margin-left: 45px;
+}
+
+.larsU {
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: lars;
+}
+
+.textoDos p {
+    width: 1500px;
+    font-size: 20px;
+    color: white;
+}
+
+.kirk {
+    font-size: 30px;
+    color: white;
+    grid-area: kirkT;
+    margin-left: 45px;
+}
+
+.kirkH {
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: kirk;
+}
+
+.textoTres p {
+    width: 1500px;
+    font-size: 20px;
+    color: white;
+}
+
+.rob {
+    font-size: 30px;
+    color: white;
+    grid-area: robT;
+    margin-left: 45px;
+}
+
+.robT {
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: rob;
+}
+
+.textoCuatro p {
+    width: 1500px;
+    font-size: 20px;
+    color: white;
 }
 
 .titulo2 {
     font-size: 40px;
     text-align: center;
     color: white;
+    grid-area: t2;
 }
 
-.filaUno {
-    display: inline-block;
+.cliff {
+    font-size: 30px;
+    color: white;
+    grid-area: cliffT;
+    margin-left: 45px;
+}
+
+.cliffB {
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: cliff;
+}
+
+.textoCinco p {
+    width: 1500px;
+    font-size: 20px;
     color: white;
 }
+
+.jason {
+    font-size: 30px;
+    color: white;
+    grid-area: jasonT;
+    margin-left: 45px;
+}
+
+.jasonN {
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: jason;
+}
+
+.textoSeis p {
+    width: 1500px;
+    font-size: 20px;
+    color: white;
+}
+
+.dave {
+    font-size: 30px;
+    color: white;
+    grid-area: daveT;
+    margin-left: 45px;
+}
+
+.daveM {
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: dave;
+}
+
+.textoSiete p {
+    width: 1500px;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*DISCOGRAFIA*/
+.contenedorDiscografia {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 35px;
+    grid-template-areas:
+    "header header header header header"
+    "t1 t1 t1 t1 t1"
+    "kill ride master justice metallica"
+    "load reload anger death hardwired"
+    "season season season season season"
+    "t2 t2 t2 t2 t2"
+    "canciones canciones canciones canciones canciones"
+    "footer footer footer footer footer";
+}
+
+.tituloDisc {
+    font-size: 40px;
+    color: white;
+    margin-left: 70px;
+    grid-area: t1;
+}
 
 .album {
-    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.album div p {
+.album div a{
+    border-right: 5px solid rgb(16, 16, 16);
+    border-bottom: 5px solid rgb(16, 16, 16);
+}
+
+.album p {
     font-size: 20px;
     color: white;
-    text-align: center
+    text-align: center;
+    padding: 10px;
 }
 
-.discoUno div a img {
+.imgDisc {
     width: 200px;
     border: 5px solid yellow;
 }
 
-.discoDos div a img {
-    width: 200px;
+.season {
+    margin-left: 440%;
+}
+
+.tituloDisc2 {
+    font-size: 40px;
+    color: white;
+    margin-left: 60px;
+    grid-area: t2;
+}
+
+.canciones {
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: canciones;
+}
+
+.canciones div {
+    border-right: 10px solid rgb(16, 16, 16);
+    border-bottom: 10px solid rgb(16, 16, 16);
+    border-radius: 10px;
+}
+
+.canciones div a iframe{
+    width: 545px;
     border: 5px solid yellow;
 }
 
-.discoTres div a img {
-    width: 200px;
-    border: 5px solid yellow;
-}
 
-.discoCuatro div a img {
-    width: 200px;
-    border: 5px solid yellow;
-}
 
-.discoCinco div a img {
-    width: 200px;
-    border: 5px solid yellow;
-}
 
-.discoSeis div a img {
-    width: 200px;
-    border: 5px solid yellow;
-}
 
-.discoUno {
-    position: relative;
-    left: 290px;
-}
 
-.discoDos {
-    position: relative;
-    left: 350px;
-}
 
-.discoTres {
-    position: relative;
-    left: 410px;
-}
 
-.discoCuatro {
-    position: relative;
-    left: 470px;
-}
 
-.discoCinco {
-    position: relative;
-    left: 530px;
-}
 
-.discoSeis {
-    position: relative;
-    left: 840px;
-}
 
-.listas div {
-    display: inline-block;
-    width: 500px;
-}
 
-.garage {
-    border: 5px solid yellow;
-    position: relative;
-    left: 100px;
-}
 
-.live {
-    border: 5px solid yellow;
-    position: relative;
-    left: 170px;
-}
 
-.lulu {
-    border: 5px solid yellow;
-    position: relative;
-    left: 240px;
-}
 
 
 
