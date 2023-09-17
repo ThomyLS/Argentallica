@@ -54,6 +54,7 @@ nav {
 }
 
 .paginas {
+    font-family: 'Acme', sans-serif;
     font-size: 32px;
     text-decoration: none;
     color: rgb(23, 23, 23);
@@ -73,6 +74,7 @@ nav {
 }
 
 .titulos {
+    font-family: 'Acme', sans-serif;
     font-size: 40px;
     text-align: center;
     color: white;
@@ -105,6 +107,7 @@ nav {
 .item li {
     color: white;
     font-size: 30px;
+    font-family: 'Acme', sans-serif;
 }
 
 .Dos {
@@ -132,9 +135,11 @@ nav {
     color: white;
     text-decoration: none;
     font-size: 30px;
+    font-family: 'Acme', sans-serif;
 }
 
 footer {
+    font-family: 'Acme', sans-serif;
     font-size: 25px;
     text-align: right;
     padding: 25px;
@@ -149,9 +154,6 @@ footer p {
     color: white;
     grid-area: footer;
 }
-
-
-
 
 @media (min-width:320px) and (max-width:480px) {
 
@@ -317,7 +319,6 @@ footer p {
     }
 }
 
-
 /*HISTORIA*/
 
 .contenedorHistoria {
@@ -336,6 +337,7 @@ footer p {
 }
 
 .t_h1 {
+    font-family: 'Acme', sans-serif;
     font-size: 40px;
     text-align: left;
     color: white;
@@ -355,6 +357,7 @@ footer p {
     width: 800px;
     font-size: 20px;
     color: white;
+    font-family: 'Acme', sans-serif;
 }
 
 .video {
@@ -370,6 +373,7 @@ footer p {
 }
 
 .t_h2 {
+    font-family: 'Acme', sans-serif;
     font-size: 40px;
     text-align: left;
     color: white;
@@ -378,6 +382,7 @@ footer p {
 }
 
 .texto_2 {
+    font-family: 'Acme', sans-serif;
     font-size: 20px;
     color: white;
     margin-left: 50px;
@@ -535,6 +540,7 @@ footer p {
 }
 
 /*INTEGRANTES*/
+
 .contenedorIntegrantes {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -570,6 +576,7 @@ footer p {
 }
 
 .titulo {
+    font-family: 'Acme', sans-serif;
     font-size: 40px;
     color: white;
     grid-area: t1;
@@ -577,6 +584,7 @@ footer p {
 }
 
 .james {
+    font-family: 'Acme', sans-serif;
     font-size: 30px;
     color: white;
     grid-area: jamesT;
@@ -590,6 +598,7 @@ footer p {
 }
 
 .textoUno p {
+    font-family: 'Acme', sans-serif;
     width: 1500px;
     font-size: 20px;
     color: white;
@@ -606,6 +615,7 @@ footer p {
 }
 
 .lars {
+    font-family: 'Acme', sans-serif;
     font-size: 30px;
     color: white;
     grid-area: larsT;
@@ -619,12 +629,14 @@ footer p {
 }
 
 .textoDos p {
+    font-family: 'Acme', sans-serif;
     width: 1500px;
     font-size: 20px;
     color: white;
 }
 
 .kirk {
+    font-family: 'Acme', sans-serif;
     font-size: 30px;
     color: white;
     grid-area: kirkT;
@@ -638,12 +650,14 @@ footer p {
 }
 
 .textoTres p {
+    font-family: 'Acme', sans-serif;
     width: 1500px;
     font-size: 20px;
     color: white;
 }
 
 .rob {
+    font-family: 'Acme', sans-serif;
     font-size: 30px;
     color: white;
     grid-area: robT;
@@ -657,12 +671,14 @@ footer p {
 }
 
 .textoCuatro p {
+    font-family: 'Acme', sans-serif;
     width: 1500px;
     font-size: 20px;
     color: white;
 }
 
 .titulo2 {
+    font-family: 'Acme', sans-serif;
     font-size: 40px;
     text-align: center;
     color: white;
@@ -670,6 +686,7 @@ footer p {
 }
 
 .cliff {
+    font-family: 'Acme', sans-serif;
     font-size: 30px;
     color: white;
     grid-area: cliffT;
@@ -683,12 +700,14 @@ footer p {
 }
 
 .textoCinco p {
+    font-family: 'Acme', sans-serif;
     width: 1500px;
     font-size: 20px;
     color: white;
 }
 
 .jason {
+    font-family: 'Acme', sans-serif;
     font-size: 30px;
     color: white;
     grid-area: jasonT;
@@ -702,12 +721,14 @@ footer p {
 }
 
 .textoSeis p {
+    font-family: 'Acme', sans-serif;
     width: 1500px;
     font-size: 20px;
     color: white;
 }
 
 .dave {
+    font-family: 'Acme', sans-serif;
     font-size: 30px;
     color: white;
     grid-area: daveT;
@@ -721,31 +742,14 @@ footer p {
 }
 
 .textoSiete p {
+    font-family: 'Acme', sans-serif;
     width: 1500px;
     font-size: 20px;
     color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*DISCOGRAFIA*/
+
 .contenedorDiscografia {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -762,6 +766,7 @@ footer p {
 }
 
 .tituloDisc {
+    font-family: 'Acme', sans-serif;
     font-size: 40px;
     color: white;
     margin-left: 70px;
@@ -779,6 +784,7 @@ footer p {
 }
 
 .album p {
+    font-family: 'Acme', sans-serif;
     font-size: 20px;
     color: white;
     text-align: center;
@@ -795,6 +801,7 @@ footer p {
 }
 
 .tituloDisc2 {
+    font-family: 'Acme', sans-serif;
     font-size: 40px;
     color: white;
     margin-left: 60px;
@@ -831,43 +838,91 @@ footer p {
 
 
 
+/*CONTACTO*/
 
-
-
-
-.slider a img {
-    width: 1000px;
-    position: relative;
-    left: 470px;
+.contenedorContacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    grid-template-areas:
+    "header header"
+    "slider slider"
+    "t_hist t_form"
+    "hist form"
+    "footer footer"
 }
 
-.contacto {
-    font-size: 35px;
+.slider {
+    width: 1150px;
+    border-right: 10px solid rgb(16, 16, 16);
+    border-bottom: 10px solid rgb(16, 16, 16);
+    grid-area: slider;
+    display: flex;
+    justify-self: center;
+}
+
+.carousel-inner {
+    border: 10px solid yellow;
+}
+
+.tituloHist {
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
     color: white;
+    grid-area: t_hist;
+    margin-left: 50px;
+}
+
+.miHistoria {
+    grid-area: hist;
 }
 
 .miHistoria p {
-    font: 28px;
+    font-size: 20px;
     color: white;
-    width: 800px;
+    width: 1000px;
+    margin-left: 50px;
+    font-family: 'Acme', sans-serif;
 }
 
-.formulario div {
-    display: inline-block;
+.tituloForm {
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    grid-area: t_form;
+    margin-left: 50px;
+}
+
+.formulario {
+    grid-area: form;
 }
 
 form {
-    position: relative;
-    bottom: 150px;
-    left: 400px;
-}
-
-form h2 {
-    font-size: 35px;
-    color: white;
-}
-
-form label {
     font-size: 20px;
+    font-family: 'Acme', sans-serif;
     color: white;
+    margin-left: 50px;
+}
+
+form input {
+    margin-left: 20px;
+}
+
+form div input {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.correo input {
+    width: 290px;
+}
+
+.comentario input {
+    height: 100px;
+    width: 350px;
+}
+
+.botones {
+    margin-top: 20px;
+    margin-left: 108px;
 }
