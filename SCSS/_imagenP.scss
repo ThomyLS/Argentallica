@@ -1,0 +1,14 @@
+main {
+    .img {
+        grid-area: imagen;
+        justify-self: center;
+        align-self: center;
+        border-right: $borderItemExteriorColor;
+        border-bottom: $borderItemExteriorColor;
+    
+        img {
+            width: $tamImagenP;
+            border: $borderItemColor
+        }
+    }
+}

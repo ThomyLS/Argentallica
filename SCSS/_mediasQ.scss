@@ -1,0 +1,313 @@
+//INDEX
+
+@media (min-width:320px) and (max-width:480px) {
+
+    .indexContenedor {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 35px;
+        grid-template-areas:
+            "header"
+            "imagen"
+            "titulo1"
+            "items"
+            "titulo2"
+            "redes"
+            "footer"
+        ;
+    }
+
+    .img {
+        border: none;
+    }
+
+    .imagenP {
+        width: 100%;
+    }
+
+    .titulos {
+        font-size: 45px;
+    }
+
+    .item {
+        padding: 15px;
+        border: 5px solid yellow;
+    }
+
+    .item li {
+        font-size: 28px;
+    }
+
+    .redes li {
+        padding: 8px;
+    }
+
+    .item2 {
+        font-size: 38px;
+    }
+
+    footer {
+        font-size: 35px;
+    }
+
+    footer p {
+        font-size: 25px;
+    }
+
+}
+
+@media (min-width:481px) and (max-width:768px) {
+
+    .indexContenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+        grid-template-areas:
+            "header header"
+            "imagen imagen"
+            "titulo1 titulo1"
+            "items items"
+            "titulo2 titulo2"
+            "redes redes"
+            "footer footer"
+        ;
+    }
+
+    .logo {
+        width: 300px;
+    }
+
+    .paginas {
+        font-size: 20px;
+    }
+
+    .img {
+        border: none;
+    }
+
+    .imagenP {
+        margin-left: 50px;
+        width: 85%;
+    }
+
+    .titulos {
+        font-size: 30px;
+    }
+
+    .cajas div {
+        border: none;
+    }
+
+    .item {
+        padding: 15px;
+    }
+
+    .item li {
+        font-size: 15px;
+    }
+
+    .item2 {
+        font-size: 25px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
+    .indexContenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 35px;
+        grid-template-areas:
+            "header header header"
+            "imagen imagen imagen"
+            "titulo1 titulo1 titulo1"
+            "items items items"
+            "titulo2 titulo2 titulo2"
+            "redes redes redes"
+            "footer footer footer"
+        ;
+    }
+
+    .logo {
+        width: 400px;
+    }
+
+    .paginas {
+        font-size: 25px;
+    }
+
+    .img {
+        border: none;
+    }
+
+    .imagenP {
+        width: 90%;
+        margin-left: 50px;
+    }
+
+    .item {
+        padding: 15px;
+        border: 5px solid yellow;
+    }
+
+    .item li {
+        font-size: 22px;
+    }
+}
+
+//HISTORIA
+
+@media (min-width:320px) and (max-width:480px) {
+
+    .contenedorHistoria {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 35px;
+        grid-template-areas:
+            "header"
+            "imagen"
+            "titulo1"
+            "tyv"
+            "titulo2"
+            "texto2"
+            "footer";
+
+    }
+
+    .imagenP {
+        width: 85%;
+        margin-left: 80px;
+    }
+
+    .tyv {
+        display: inline-block;
+    }
+
+    .texto_1 p {
+        width: 100%;
+    }
+
+    .video {
+        border: none;
+    }
+
+    .video a iframe {
+        margin-top: 35px;
+        margin-left: 175px;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+
+    .contenedorHistoria {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+        grid-template-areas:
+            "header header"
+            "imagen imagen"
+            "titulo1 titulo1"
+            "tyv tyv"
+            "titulo2 titulo2"
+            "texto2 texto2"
+            "footer footer";
+
+    }
+
+    .t_h1 {
+        font-size: 30px;
+    }
+
+    .tyv {
+        display: inline;
+    }
+
+    .texto_1 p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .video {
+        border: none;
+    }
+
+    .video a iframe {
+        margin-top: 35px;
+        margin-left: 50px;
+        width: 550px;
+        height: 350px;
+    }
+
+    .t_h2 {
+        font-size: 30px;
+    }
+
+    .texto_2 p {
+        font-size: 15px;
+        width: 100%;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
+    .contenedorHistoria {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+        grid-template-areas:
+            "header header header"
+            "imagen imagen imagen"
+            "titulo1 titulo1 titulo1"
+            "tyv tyv tyv"
+            "titulo2 titulo2 titulo2"
+            "texto2 texto2 texto2"
+            "footer footer footer"
+        ;
+    }
+
+    .logo {
+        width: 350px;
+    }
+
+    .paginas {
+        font-size: 20px;
+    }
+
+    .imagenP {
+        width: 85%;
+    }
+
+    .tyv {
+        display: inline;
+    }
+
+    .texto_1 p {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .video {
+        border: none;
+    }
+
+    .video a iframe {
+        margin-top: 35px;
+        margin-left: 125px;
+        width: 650px;
+        height: 460px;
+    }
+
+    .texto_2 p {
+        width: 100%;
+    }
+
+}

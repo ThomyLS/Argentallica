@@ -1,0 +1,38 @@
+// nesting
+
+header {
+    background-color: $importantItemColor;
+    border: $borderNav;
+    border-radius: $borderRadiusNav;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-area: header;
+
+    a {
+        img {
+            width: 500px;
+        }
+    }
+
+    nav {
+        width: 700px;
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+
+            li {
+                a {
+                    font-family: $mainFonts;
+                    font-size: $textMenu;
+                    text-decoration: none;
+                    color: $fontNavColor;
+                }
+            }
+        }
+    }
+}

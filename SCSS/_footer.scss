@@ -1,0 +1,16 @@
+footer {
+    font-family: $mainFonts;
+    font-size: $textFooter;
+    text-align: right;
+    padding: 25px;
+    color: $fontColor;
+    grid-area: footer;
+    background-color: $footerColor;
+
+    p {
+        font-size: $textFooter2;
+        text-align: right;
+        color: $fontColor;
+        grid-area: footer;
+    }
+}
