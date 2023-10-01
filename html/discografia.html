@@ -5,259 +5,299 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discografia</title>
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS -->
     <link rel="stylesheet" href="../CSS/main.css">
+    <!-- Favicon -->
     <link rel="shortcut icon" href="../img/Logo_Metallica.png" type="">
-
     <!-- Fuente -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-    <meta name="description" content="La discografia de Metallica es extensa pero no quita que sea la mejor de todas, aqui te mostramos algunos de sus discos mas vendidos.">
-    <meta name="keywords" content="albumes, su musica, kill em all, ride the Lightning, master of puppets, and justice for all, metallica, black album, load, reload, st.anger, death magnetic, hardwired to self destruct">
+    <!-- Descripciones -->
+    <meta name="description"
+        content="La discografia de Metallica es extensa pero no quita que sea la mejor de todas, aqui te mostramos algunos de sus discos mas vendidos.">
+    <!-- Keywords -->
+    <meta name="keywords"
+        content="albumes, su musica, kill em all, ride the Lightning, master of puppets, and justice for all, metallica, black album, load, reload, st.anger, death magnetic, hardwired to self destruct">
+    <!-- Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
-    <main class="contenedorDiscografia">
-        <header class="header">
-            <a href="../index.html">
-                <img class="logo" src="../img/Argentallica_letras.png" alt="Nombre combinado con Argentina y Metallica">
+    <main class="container-fluid">
+        <header class="row rounded">
+            <nav class="navbar navbar-expand-lg col-4">
+                <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                </button>
+
+                <div class="collapse navbar-collapse ms-3" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav">
+                        <li><a class="ms-2" href="../index.html">Inicio</a></li>
+                        <li><a class="ms-2" href="historia.html#">Historia</a></li>
+                        <li><a class="ms-2" href="integrantes.html#">Integrantes</a></li>
+                        <li><a class="ms-2" href="discografia.html#">Discografia</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <a class="col-4" href="#">
+                <img class="img-fluid position-absolute z-1 pe-5 animate__animated animate__backInDown"
+                    src="../img/Argentallica.png" alt="Nombre combinado con Argentina y Metallica">
             </a>
 
-            <nav>
-                <ul class="menu">
-                    <li><a class="paginas" href="../index.html"> Inicio </a></li>
-                    <li><a class="paginas" href="historia.html"> Historia </a></li>
-                    <li><a class="paginas" href="integrantes.html"> Integrantes </a></li>
-                    <li><a class="paginas" href="discografia.html"> Discografia </a></li>
-                    <li><a class="paginas" href="contacto.html"> Contacto </a></li>
-                </ul>
-            </nav>
+            <div class="pt-2 pe-4 col-4">
+                <a href="contacto.html">
+                    <i class="fa-regular fa-envelope me-2" style="color: #191919;"></i>
+                    Contacto
+                </a>
+            </div>
         </header>
 
 
-        <h1 class="tituloDisc"> Albumes </h1>
-
-
-        <div class="album">
-            <div>
-                <a href="">
-                    <img class="imgDisc" src="../img/Kill_em_all.jpg" alt="">
-                </a>
-
-
-                <p> Kill 'Em All
-                <p>
-                    (1983)
-                </p>
-                </p>
-            </div>
+        <div class="img">
+            <img class="imagenP img-fluid" src="../img/Discografia.jpg" alt="Merchandising">
         </div>
 
 
-        <div class="album">
-            <div>
-                <a href="">
-                    <img class="imgDisc" src="../img/Ride_The_Lightning.jpg" alt="">
-                </a>
+        <h2 class="text-center m-0 mt-5 me-4"> Albumes </h2>
 
 
-                <p> Ride the Lightning
-                <p>
-                    (1984)
-                </p>
-                </p>
+        <section class="container-fluid row mt-5 d-flex justify-content-evenly">
+            <div class="album col-2">
+                <div>
+                    <a href="">
+                        <img class="img-fluid" src="../img/Kill_em_all.jpg" alt="">
+                    </a>
+
+
+                    <p class="m-0 mt-3 p-0 text-center"> Kill 'Em All
+                    <p class="m-0 mt-3 p-0 text-center">
+                        (1983)
+                    </p>
+                    </p>
+                </div>
             </div>
-        </div>
 
 
-        <div class="album">
-            <div>
-                <a href="">
-                    <img class="imgDisc" src="../img/Master_of_Puppets.jpg" alt="">
-                </a>
+            <div class="album col-2">
+                <div>
+                    <a href="">
+                        <img class="img-fluid" src="../img/Ride_The_Lightning.jpg" alt="">
+                    </a>
 
 
-                <p> Master of Puppets
-                <p>
-                    (1986)
-                </p>
-                </p>
+                    <p class="m-0 mt-3 p-0 text-center"> Ride the Lightning
+                    <p class="m-0 mt-3 p-0 text-center">
+                        (1984)
+                    </p>
+                    </p>
+                </div>
             </div>
-        </div>
 
 
-        <div class="album">
-            <div>
-                <a href="">
-                    <img class="imgDisc" src="../img/And_justice_for_all.jpg" alt="">
-                </a>
+            <div class="album col-2">
+                <div>
+                    <a href="">
+                        <img class="img-fluid" src="../img/Master_of_Puppets.jpg" alt="">
+                    </a>
 
 
-                <p> …And Justice for All
-                <p>
-                    (1988)
-                </p>
-                </p>
+                    <p class="m-0 mt-3 p-0 text-center"> Master of Puppets
+                    <p class="m-0 mt-3 p-0 text-center">
+                        (1986)
+                    </p>
+                    </p>
+                </div>
             </div>
-        </div>
 
 
-        <div class="album">
-            <div>
-                <a href="">
-                    <img class="imgDisc" src="../img/MetallicaBlack.jpg" alt="">
-                </a>
+            <div class="album col-2">
+                <div>
+                    <a href="">
+                        <img class="img-fluid" src="../img/And_justice_for_all.jpg" alt="">
+                    </a>
 
 
-                <p> Metallica - Black album
-                <p>
-                    (1983)
-                </p>
-                </p>
+                    <p class="m-0 mt-3 p-0 text-center"> …And Justice for All
+                    <p class="m-0 mt-3 p-0 text-center">
+                        (1988)
+                    </p>
+                    </p>
+                </div>
             </div>
-        </div>
 
 
-        <div class="album">
-            <div>
-                <a href="">
-                    <img class="imgDisc" src="../img/Load.jpg" alt="">
-                </a>
+            <div class="album col-2">
+                <div>
+                    <a href="">
+                        <img class="img-fluid" src="../img/MetallicaBlack.jpg" alt="">
+                    </a>
 
 
-                <p> Load
-                <p>
-                    (1996)
-                </p>
-                </p>
+                    <p class="m-0 mt-3 p-0 text-center"> Metallica - Black album
+                    <p class="m-0 mt-3 p-0 text-center">
+                        (1983)
+                    </p>
+                    </p>
+                </div>
             </div>
-        </div>
+        </section>
 
 
-        <div class="album">
-            <div>
-                <a href="">
-                    <img class="imgDisc" src="../img/Reload.jpg" alt="">
-                </a>
+        <section class="container-fluid row mt-5 d-flex justify-content-evenly">
+            <div class="album col-2">
+                <div>
+                    <a href="">
+                        <img class="img-fluid" src="../img/Load.jpg" alt="">
+                    </a>
 
 
-                <p> ReLoad
-                <p>
-                    (1997)
-                </p>
-                </p>
+                    <p class="m-0 mt-3 p-0 text-center"> Load
+                    <p class="m-0 mt-3 p-0 text-center">
+                        (1996)
+                    </p>
+                    </p>
+                </div>
             </div>
-        </div>
 
 
-        <div class="album">
-            <div>
-                <a href="">
-                    <img class="imgDisc" src="../img/St.Anger.jpg" alt="">
-                </a>
+            <div class="album col-2">
+                <div>
+                    <a href="">
+                        <img class="img-fluid" src="../img/Reload.jpg" alt="">
+                    </a>
 
 
-                <p> St. Anger
-                <p>
-                    (2003)
-                </p>
-                </p>
+                    <p class="m-0 mt-3 p-0 text-center"> ReLoad
+                    <p class="m-0 mt-3 p-0 text-center">
+                        (1997)
+                    </p>
+                    </p>
+                </div>
             </div>
-        </div>
 
 
-        <div class="album">
-            <div>
-                <a href="">
-                    <img class="imgDisc" src="../img/Death_Magnetic.jpg" alt="">
-                </a>
+            <div class="album col-2">
+                <div>
+                    <a href="">
+                        <img class="img-fluid" src="../img/St.Anger.jpg" alt="">
+                    </a>
 
 
-                <p> Death Magnetic
-                <p>
-                    (2008)
-                </p>
-                </p>
+                    <p class="m-0 mt-3 p-0 text-center"> St. Anger
+                    <p class="m-0 mt-3 p-0 text-center">
+                        (2003)
+                    </p>
+                    </p>
+                </div>
             </div>
-        </div>
 
 
-        <div class="album">
-            <div>
-                <a href="">
-                    <img class="imgDisc" src="../img/Hardwired_to_self_destruct.jpg" alt="">
-                </a>
+            <div class="album col-2">
+                <div>
+                    <a href="">
+                        <img class="img-fluid" src="../img/Death_Magnetic.jpg" alt="">
+                    </a>
 
 
-                <p> Hardwired to Self-Destruct
-                <p>
-                    (2016)
-                </p>
-                </p>
+                    <p class="m-0 mt-3 p-0 text-center"> Death Magnetic
+                    <p class="m-0 mt-3 p-0 text-center">
+                        (2008)
+                    </p>
+                    </p>
+                </div>
             </div>
-        </div>
 
 
-        <div class="album">
-            <div class="season">
-                <a href="">
-                    <img class="imgDisc" src="../img/72_seasons.jpg" alt="">
-                </a>
+            <div class="album col-2">
+                <div>
+                    <a href="">
+                        <img class="img-fluid" src="../img/Hardwired_to_self_destruct.jpg" alt="">
+                    </a>
 
 
-                <p> 72 Seasons
-                <p>
-                    (2023)
-                </p>
-                </p>
+                    <p class="m-0 mt-3 p-0 text-center"> Hardwired to Self-Destruct
+                    <p class="m-0 mt-3 p-0 text-center">
+                        (2016)
+                    </p>
+                    </p>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <h2 class="tituloDisc2"> Su musica </h2>
+        <section class="container-fluid row mt-5 d-flex justify-content-evenly">
+            <div class="album col-2">
+                <div>
+                    <a href="">
+                        <img class="img-fluid z-3" src="../img/72_seasons.jpg" alt="">
+                    </a>
 
 
-        <div class="canciones">
-            <div>
-                <a href="">
-                    <iframe style="border-radius:12px"
-                        src="https://open.spotify.com/embed/album/0vshXZYhBkbIoqxyC2fXcF?utm_source=generator&theme=0"
-                        width="100%" height="352" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe>
-                </a>
+                    <p class="m-0 mt-3 p-0 text-center"> 72 Seasons
+                    <p class="m-0 mt-3 p-0 text-center">
+                        (2023)
+                    </p>
+                    </p>
+                </div>
             </div>
-    
-            <div>
-                <a href="">
-                    <iframe style="border-radius:12px"
-                        src="https://open.spotify.com/embed/album/5g3oqy7nAK03ke2cR5c95I?utm_source=generator&theme=0"
-                        width="100%" height="352" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe>
-                </a>
+        </section>
+
+        <h2 class="m-0 mt-5 text-center me-4"> Su musica </h2>
+
+        <section class="container-fluid mt-5">
+            <div class="canciones row">
+                <div class="col-4">
+                    <a href="">
+                        <iframe style="border-radius:12px"
+                            src="https://open.spotify.com/embed/album/0vshXZYhBkbIoqxyC2fXcF?utm_source=generator&theme=0"
+                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                    </a>
+                </div>
+
+                <div class="col-4">
+                    <a href="">
+                        <iframe style="border-radius:12px"
+                            src="https://open.spotify.com/embed/album/5g3oqy7nAK03ke2cR5c95I?utm_source=generator&theme=0"
+                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                    </a>
+                </div>
+
+                <div class="col-4">
+                    <a href="">
+                        <iframe style="border-radius:12px"
+                            src="https://open.spotify.com/embed/album/3a1SJd8obHju43McHQew7J?utm_source=generator&theme=0"
+                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                    </a>
+                </div>
             </div>
-    
-            <div>
-                <a href="">
-                    <iframe style="border-radius:12px"
-                        src="https://open.spotify.com/embed/album/3a1SJd8obHju43McHQew7J?utm_source=generator&theme=0"
-                        width="100%" height="352" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe>
-                </a>
-            </div>
-        </div>
-
-
-        <footer>
-            Thrash Power!
-
-            <p>
-                © Derechos reservados a Tomas Sanchez
-            </p>
-        </footer>
+        </section>
     </main>
+
+    <footer class="mt-5">
+        Thrash Power!
+
+        <p>
+            © Derechos reservados a Tomas Sanchez
+        </p>
+    </footer>
+
+    <!-- BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/d2cf004334.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

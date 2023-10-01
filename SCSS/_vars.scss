@@ -7,6 +7,7 @@ $itemBackground:rgb(35, 35, 35);
 $fontNavColor: rgb(23, 23, 23);
 $fontColor: white;
 $footerColor: rgb(33, 33, 33);
+$mainShadow: 10px 10px 15px black;
 
 //fonts
 $mainFonts:'Acme', sans-serif;
@@ -14,17 +15,15 @@ $mainFonts:'Acme', sans-serif;
 //fonts-sizes
 $textMenu: 32px;
 $textItems: 30px;
-$textTitulo: 40px;
-$textParrafo: 20px;
+$textTitulo: 38px;
+$textParrafo: 18px;
 $textFooter: 25px;
 $textFooter2: 15px;
 
 //bordes 
-$borderNav: 8px solid rgb(23, 23, 23);
 $borderRadiusNav: 20px;
 $borderItemExteriorColor: 10px solid rgb(16, 16, 16);
 $borderItemColor: 5px solid yellow;
-$borderItemColor2: 10px solid yellow;
 
 //widths 
 $tamItem: 250px;

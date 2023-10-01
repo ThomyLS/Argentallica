@@ -5,109 +5,218 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historia</title>
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS -->
     <link rel="stylesheet" href="../CSS/main.css">
+    <!-- Favicon -->
     <link rel="shortcut icon" href="../img/Logo_Metallica.png" type="">
-
     <!-- Fuente -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-    <meta name="description" content="La historia de toda banda es importante, pero la de Metallica es interesante, veni y conocela.">
+    <!-- Descripciones -->
+    <meta name="description"
+        content="La historia de toda banda es importante, pero la de Metallica es interesante, veni y conocela.">
+    <!-- Keywords -->
     <meta name="keywords" content="historia de Metallica, su paso por argentina">
+    <!-- Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
-    <main class="contenedorHistoria">
+    <main class="container-fluid">
+        <header class="row rounded">
+            <nav class="navbar navbar-expand-lg col-4">
+                <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                </button>
 
-        <header class="header">
-            <a href="../index.html">
-                <img class="logo" src="../img/Argentallica_letras.png" alt="Nombre combinado con Argentina y Metallica">
+                <div class="collapse navbar-collapse ms-3" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav">
+                        <li><a class="ms-2" href="../index.html">Inicio</a></li>
+                        <li><a class="ms-2" href="historia.html#">Historia</a></li>
+                        <li><a class="ms-2" href="integrantes.html#">Integrantes</a></li>
+                        <li><a class="ms-2" href="discografia.html#">Discografia</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <a class="col-4" href="#">
+                <img class="img-fluid position-absolute z-1 pe-5 animate__animated animate__backInDown" src="../img/Argentallica.png"
+                    alt="Nombre combinado con Argentina y Metallica">
             </a>
 
-
-            <nav>
-                <ul class="menu">
-                    <li><a class="paginas" href="../index.html"> Inicio </a></li>
-                    <li><a class="paginas" href="historia.html"> Historia </a></li>
-                    <li><a class="paginas" href="integrantes.html"> Integrantes </a></li>
-                    <li><a class="paginas" href="discografia.html"> Discografia </a></li>
-                    <li><a class="paginas" href="contacto.html"> Contacto </a></li>
-                </ul>
-            </nav>
+            <div class="pt-2 pe-4 col-4">
+                <a href="contacto.html">
+                    <i class="fa-regular fa-envelope me-2" style="color: #191919;"></i>
+                    Contacto
+                </a>
+            </div>
         </header>
 
 
         <div class="img">
-            <img class="imagenP" src="../img/Metallica2.jpg" alt="Integrantes de la banda Metallica">
+            <img class="imagenP img-fluid" src="../img/Metallica2.jpg" alt="Integrantes de la banda Metallica">
         </div>
 
-        <h2 class="t_h1"> Historia </h2>
 
-        <div class="tyv">
-            <div class="texto_1">
-                <p> la historia de Metallica comenzó en 1980 cuando el joven Lars Ulrich, originario de Gentofte,
-                    Dinamarca, se trasladó con su familia a Los Ángeles. Hijo del tenista profesional Torben Ulrich,
-                    Ulrich había desarrollado una enorme afición por el heavy metal durante los años 70, cuando la
-                    NWOBHM (Nueva Ola de Heavy Metal Británico) tenía gran auge en la escena underground europea. Con su
-                    traslado a Estados Unidos, planeado por su padre con el objetivo original de preparar una carrera
-                    dentro del tenis profesional, dicha afición de Ulrich se convertiría prácticamente en una obsesión,
-                    que se concentraba especialmente en grupos desconocidos de la nueva corriente inglesa. Su prioridad
-                    al llegar a Los Ángeles fue la de explotar su capacidad musical junto con otros jóvenes, lo que le
-                    llevó en 1981 a publicar un anuncio en la revista Recycler, en el que solicitaba un guitarrista para
-                    formar una banda con influencias de las bandas de la NWOBHM, concretamente sus bandas preferidas:
-                    Diamond Head, Def Leppard, Iron Maiden y Tygers of Pan Tang. El joven James Hetfield, hijo de un
-                    propietario de una compañía de camiones y de una cantante de ópera que educaron a sus hijos en la
-                    Ciencia Cristiana, respondió a su anuncio. Comenzaron a ensayar juntos y, aunque al principio a
-                    Hetfield no le convencía la forma de tocar de Ulrich, finalmente formaron una banda. La clave de
-                    esta unión fue el tema que tenía reservado por parte de su amigo Brian Slagel, fundador de la
-                    compañía discográfica, entonces recién creada, Metal Blade Records, en el primer recopilatorio que
-                    editaría el sello, titulado Metal Massacre.
-                    El nombre del grupo fue idea de un amigo de Lars llamado Ron Quintana, quien tenía "Metalmania" y
-                    "Metallica" como posibles nombres para un nuevo fanzine musical, aunque se inclinaba más por el
-                    segundo. A Ulrich le gustó tanto "Metallica" que rápidamente le recomendó (a Quintana) que llamara
-                    "Metalmania" al fanzine. Así, la banda de Ulrich y Hetfield tomó el nombre Metallica.
+        <section class="container-fluid">
+            <h2 class="t_h1 mt-5 ms-2"> Historia </h2>
+
+            <div class="tyv row d-flex justify-content-evenly">
+                <div class="col-7">
+                    <p class="mt-5 ms-0"> la historia de Metallica comenzó en 1980 cuando el joven Lars Ulrich,
+                        originario de
+                        Gentofte,
+                        Dinamarca, se trasladó con su familia a Los Ángeles. Hijo del tenista profesional Torben Ulrich,
+                        Ulrich había desarrollado una enorme afición por el heavy metal durante los años 70, cuando la
+                        NWOBHM (Nueva Ola de Heavy Metal Británico) tenía gran auge en la escena underground europea.
+                        Con su
+                        traslado a Estados Unidos, planeado por su padre con el objetivo original de preparar una
+                        carrera
+                        dentro del tenis profesional, dicha afición de Ulrich se convertiría prácticamente en una
+                        obsesión,
+                        que se concentraba especialmente en grupos desconocidos de la nueva corriente inglesa. Su
+                        prioridad
+                        al llegar a Los Ángeles fue la de explotar su capacidad musical junto con otros jóvenes, lo que
+                        le
+                        llevó en 1981 a publicar un anuncio en la revista Recycler, en el que solicitaba un guitarrista
+                        para
+                        formar una banda con influencias de las bandas de la NWOBHM, concretamente sus bandas
+                        preferidas:
+                        Diamond Head, Def Leppard, Iron Maiden y Tygers of Pan Tang. El joven James Hetfield, hijo de un
+                        propietario de una compañía de camiones y de una cantante de ópera que educaron a sus hijos en
+                        la
+                        Ciencia Cristiana, respondió a su anuncio. Comenzaron a ensayar juntos y, aunque al principio a
+                        Hetfield no le convencía la forma de tocar de Ulrich, finalmente formaron una banda. La clave de
+                        esta unión fue el tema que tenía reservado por parte de su amigo Brian Slagel, fundador de la
+                        compañía discográfica, entonces recién creada, Metal Blade Records, en el primer recopilatorio
+                        que
+                        editaría el sello, titulado Metal Massacre.
+                        El nombre del grupo fue idea de un amigo de Lars llamado Ron Quintana, quien tenía "Metalmania"
+                        y
+                        "Metallica" como posibles nombres para un nuevo fanzine musical, aunque se inclinaba más por el
+                        segundo. A Ulrich le gustó tanto "Metallica" que rápidamente le recomendó (a Quintana) que
+                        llamara
+                        "Metalmania" al fanzine. Así, la banda de Ulrich y Hetfield tomó el nombre Metallica.
+                    </p>
+                </div>
+
+
+                <div class="video col-5">
+                    <a href="">
+                        <iframe class="object-fit-contain" width="750" height="505"
+                            src="https://www.youtube.com/embed/VJuAquSX4FE" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container-fluid">
+            <h2 class="ms-2"> Su paso por Argentina </h2>
+
+            <div class="text mt-3">
+                <p> El 8 de diciembre de 2013 la banda realizó un concierto en la base argentina Carlini, para
+                    (concienciar
+                    sobre la importancia de la Antártida para el planeta). Hubo aproximadamente un centenar de
+                    asistentes,
+                    incluyendo personal de otras bases cercanas como Uruguay, Chile, Polonia, Corea del Sur, Rusia,
+                    Brasil y
+                    Alemania. Se siguió un riguroso protocolo sobre impacto ambiental y no se usaron amplificadores
+                    durante
+                    el recital, el público pudo escuchar a través de auriculares.
                 </p>
             </div>
+        </section>
 
+        <section class="container-fluid mt-5">
+            <h2 class="text-end mt-5 me-3"> Su Historia con el Mundo </h2>
 
-            <div class="video">
-                <a href="">
-                    <iframe width="750" height="505" src="https://www.youtube.com/embed/VJuAquSX4FE"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </a>
+            <div class="row">
+                <div class="col-5">
+                    <a href="">
+                        <iframe width="750" height="505"
+                            src="https://www.youtube.com/embed/Qu86q0HxXwI?si=2htjcjFrR40Ksj95"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </a>
+                </div>
+
+                <div class="col-7 mt-3">
+                    <p class="text-end">
+                        Al principio, Metallica mantuvo en secreto su labor benéfica durante años.
+                        En un principio, Metallica optó por no hacer pública su labor benéfica para evitar que pareciera
+                        que estaban "dándose palmaditas en la espalda", y en vez de ello donaron discretamente alimentos
+                        y dinero en las ciudades donde tocaban, según detalló el baterista Ulrich en un artículo de
+                        opinión de 2018 para Rolling Stone.
+
+                        Desde entonces el grupo ha pasado a defender causas al aire libre para conseguir más apoyo, lo
+                        que les permite difundir aún más los retos que tanto les preocupan y movilizar a sus fans para
+                        que tomen acción.
+                        El grupo creó su propia fundación para centrarse en una serie de temas relevantes.
+                        En 2017 Metallica creó la Fundación All Within My Hands para consolidar sus principales
+                        iniciativas filantrópicas. La fundación se centra en la educación superior, el desarrollo de la
+                        mano de obra, derechos de las mujeres, el hambre, la ayuda de emergencia y los servicios
+                        comunitarios.
+
+                        Uno de los esfuerzos de la fundación consistió en donar 277,000 dólares para construir el primer
+                        hospital de cáncer pediátrico en Rumanía en 2019. Más recientemente, la fundación donó 135,000
+                        dólares para apoyar a las víctimas de las graves inundaciones en Alemania a principios de este
+                        año.
+
+                        Desde 2018 la Fundación All Within My Hands ha organizado un Día de Servicio anual, animando a
+                        los fans a sumarse a Metallica para apoyar a las comunidades mediante voluntariado en los bancos
+                        de alimentos locales.
+                        Metallica se sumó a Global Citizen en la lucha para acabar con la pobreza extrema en 2016.
+                        La querida banda de metal tocó en el escenario del Global Citizen Festival en 2016. Convocaron a
+                        sus fans para tomar acción y apoyar nuestra misión de acabar con la pobreza extrema, combatir el
+                        cambio climático y empoderar a las comunidades históricamente excluidas.
+
+                        Su concierto estuvo dedicado a "aquellas personas que son afines y cuyas buenas intenciones
+                        ojalá se encuentren con sus destinos previstos", gritó el vocalista y guitarrista Hetfield.
+
+                        Metallica también participó en nuestro evento global de 24 horas Global Citizen Live en
+                        septiembre de 2021, tocando desde Louisville, Kentucky, en apoyo de nuestra campaña para
+                        defender el planeta y derrotar la pobreza.
+                        La banda apoya activamente las causas ambientales.
+                        Metallica lleva décadas apoyando las causas de la sostenibilidad, sobre todo cuando la banda se
+                        presentó en el marco del concierto Live Earth en 2007 que benefició a una serie de
+                        organizaciones ambientales.
+
+                        También hicieron donaciones a grupos ecologistas como el World Wildlife Fund, el Sierra Club y
+                        la Rainforest Action Network.
+
+                        En 2020 Metallica donó 775,000 dólares para rescatar a la fauna en Australia tras los mortíferos
+                        incendios forestales.
+                    </p>
+                </div>
             </div>
-        </div>
+        </section>
 
 
-        <h2 class="t_h2"> Su paso por Argentina </h2>
-
-        <div class="texto_2">
-            <p> El 8 de diciembre de 2013 la banda realizó un concierto en la base argentina Carlini, para (concienciar
-                sobre la importancia de la Antártida para el planeta). Hubo aproximadamente un centenar de asistentes,
-                incluyendo personal de otras bases cercanas como Uruguay, Chile, Polonia, Corea del Sur, Rusia, Brasil y
-                Alemania. Se siguió un riguroso protocolo sobre impacto ambiental y no se usaron amplificadores durante
-                el recital, el público pudo escuchar a través de auriculares.
-            </p>
-        </div>
-
-        <footer>
-            Thrash Power!
-
-            <p>
-                © Derechos reservados a Tomas Sanchez
-            </p>
-        </footer>
     </main>
 
+    <footer class="mt-5">
+        Thrash Power!
 
+        <p>
+            © Derechos reservados a Tomas Sanchez
+        </p>
+    </footer>
 
-
-
-
-
+    <!-- BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/d2cf004334.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

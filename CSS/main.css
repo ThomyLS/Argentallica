@@ -1,503 +1,236 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
-* {
-  padding: 0px;
-  margin: 0px;
-}
-
 body {
   background-color: rgb(25, 25, 25);
 }
 
 /*INICIO*/
-.indexContenedor {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 25px;
-  grid-template-areas: "header header header" "imagen imagen imagen" "titulo1 titulo1 titulo1" "items items items" "titulo2 titulo2 titulo2" "redes redes redes" "footer footer footer";
-}
-.indexContenedor h2 {
+h2 {
   font-family: "Acme", sans-serif;
-  font-size: 40px;
-  text-align: center;
+  font-size: 38px;
   color: white;
-  grid-area: titulo1;
 }
-.indexContenedor .cajas {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  grid-area: items;
+
+.cajas {
+  transform: skewY(-0.5deg);
 }
-.indexContenedor .cajas div {
-  border-right: 10px solid rgb(16, 16, 16);
-  border-bottom: 10px solid rgb(16, 16, 16);
-}
-.indexContenedor .cajas div ul {
+.cajas div ul {
   background-color: rgb(35, 35, 35);
   border: 5px solid yellow;
   padding: 25px;
   list-style: none;
+  box-shadow: 10px 10px 15px black;
 }
-.indexContenedor .cajas div ul li {
+.cajas div ul li {
   color: white;
   font-size: 30px;
   font-family: "Acme", sans-serif;
   text-align: center;
 }
-.indexContenedor .Dos {
-  grid-area: titulo2;
+
+.item {
+  box-shadow: 10px 10px 15px black;
+  width: 28%;
+  transform: skewY(-0.5deg);
 }
-.indexContenedor .navLinks {
-  grid-area: redes;
-  justify-self: center;
-  align-self: center;
-  margin-left: 60px;
+.item div {
+  border: 5px solid yellow;
 }
-.indexContenedor .navLinks nav ul {
+.item div h5 {
+  font-family: "Acme", sans-serif;
+}
+.item div p {
+  font-family: "Acme", sans-serif;
+  color: black;
+  text-align: start;
+}
+.item div a {
+  font-family: "Acme", sans-serif;
+  background-color: rgb(23, 23, 23);
+}
+
+.btn:hover {
+  background-color: rgb(68, 66, 51);
+}
+
+.navLinks nav ul {
   text-align: center;
   justify-self: center;
   align-self: center;
   list-style: none;
 }
-.indexContenedor .navLinks nav ul li {
+.navLinks nav ul li {
   margin: 5px;
 }
-.indexContenedor .navLinks nav ul li a {
+.navLinks nav ul li a {
   color: white;
   text-decoration: none;
   font-size: 30px;
   font-family: "Acme", sans-serif;
 }
 
-.contenedorHistoria {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 25px;
-  grid-template-areas: "header header header" "imagen imagen imagen" "titulo1 titulo1 titulo1" "tyv tyv tyv" "titulo2 titulo2 titulo2" "texto2 texto2 texto2" "footer footer footer";
-}
-.contenedorHistoria h2 {
-  font-family: "Acme", sans-serif;
-  font-size: 40px;
-  text-align: left;
+section .tyv div p {
   color: white;
-  margin-left: 50px;
-  grid-area: titulo1;
-}
-.contenedorHistoria .tyv {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0px 50px;
-  grid-area: tyv;
-}
-.contenedorHistoria .tyv div p {
-  width: 800px;
-  font-size: 20px;
-  color: white;
+  font-size: 18px;
   font-family: "Acme", sans-serif;
+  text-align: start;
 }
-.contenedorHistoria .tyv .video {
-  display: flex;
-  flex-direction: row;
-  justify-self: end;
-  border-right: 10px solid rgb(16, 16, 16);
-  border-bottom: 10px solid rgb(16, 16, 16);
-}
-.contenedorHistoria .tyv .video a iframe {
+section div a iframe {
   border: 5px solid yellow;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px black;
 }
-.contenedorHistoria .t_h2 {
-  font-family: "Acme", sans-serif;
-  font-size: 40px;
-  text-align: left;
+
+section .text p {
   color: white;
-  margin-left: 50px;
-  grid-area: titulo2;
-}
-.contenedorHistoria .texto_2 {
-  grid-area: texto2;
-}
-.contenedorHistoria .texto_2 p {
+  font-size: 18px;
   font-family: "Acme", sans-serif;
-  font-size: 20px;
-  color: white;
-  margin-left: 50px;
-  margin-right: 50px;
+  text-align: start;
 }
 
 /*INTEGRANTES*/
-.contenedorIntegrantes {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 35px;
-  grid-template-areas: "header header" "imagen imagen" "t1 t1" "jamesT jamesT" "james james" "larsT larsT" "lars lars" "kirkT kirkT" "kirk kirk" "robT robT" "rob rob" "t2 t2" "cliffT cliffT" "cliff cliff" "jasonT jasonT" "jason jason" "daveT daveT" "dave dave" "footer footer";
-}
-.contenedorIntegrantes h2 {
+h3 {
   font-family: "Acme", sans-serif;
-  font-size: 40px;
-  color: white;
-  grid-area: t1;
-  margin-left: 45px;
-}
-.contenedorIntegrantes .james {
-  font-family: "Acme", sans-serif;
-  font-size: 30px;
-  color: white;
-  grid-area: jamesT;
-  margin-left: 45px;
-}
-.contenedorIntegrantes .jamesH {
-  display: flex;
-  justify-content: space-evenly;
-  grid-area: james;
-}
-.contenedorIntegrantes .jamesH .textoUno p {
-  font-family: "Acme", sans-serif;
-  width: 1500px;
-  font-size: 20px;
-  color: white;
-}
-.contenedorIntegrantes .jamesH .int_Img2 {
-  border-right: 10px solid rgb(16, 16, 16);
-  border-bottom: 10px solid rgb(16, 16, 16);
-}
-.contenedorIntegrantes .jamesH .int_Img2 a img {
-  width: 250px;
-  border: 10px solid yellow;
-}
-.contenedorIntegrantes .lars {
-  font-family: "Acme", sans-serif;
-  font-size: 30px;
-  color: white;
-  grid-area: larsT;
-  margin-left: 45px;
-}
-.contenedorIntegrantes .larsU {
-  display: flex;
-  justify-content: space-evenly;
-  grid-area: lars;
-}
-.contenedorIntegrantes .larsU .int_Img2 {
-  border-right: 10px solid rgb(16, 16, 16);
-  border-bottom: 10px solid rgb(16, 16, 16);
-}
-.contenedorIntegrantes .larsU .int_Img2 img {
-  width: 250px;
-  border: 10px solid yellow;
-}
-.contenedorIntegrantes .larsU div p {
-  font-family: "Acme", sans-serif;
-  width: 1500px;
-  font-size: 20px;
-  color: white;
-}
-.contenedorIntegrantes .kirk {
-  font-family: "Acme", sans-serif;
-  font-size: 30px;
-  color: white;
-  grid-area: kirkT;
-  margin-left: 45px;
-}
-.contenedorIntegrantes .kirkH {
-  display: flex;
-  justify-content: space-evenly;
-  grid-area: kirk;
-}
-.contenedorIntegrantes .kirkH .textoTres p {
-  font-family: "Acme", sans-serif;
-  width: 1500px;
-  font-size: 20px;
-  color: white;
-}
-.contenedorIntegrantes .kirkH .int_Img2 {
-  border-right: 10px solid rgb(16, 16, 16);
-  border-bottom: 10px solid rgb(16, 16, 16);
-}
-.contenedorIntegrantes .kirkH .int_Img2 img {
-  width: 250px;
-  border: 10px solid yellow;
-}
-.contenedorIntegrantes .rob {
-  font-family: "Acme", sans-serif;
-  font-size: 30px;
-  color: white;
-  grid-area: robT;
-  margin-left: 45px;
-}
-.contenedorIntegrantes .robT {
-  display: flex;
-  justify-content: space-evenly;
-  grid-area: rob;
-}
-.contenedorIntegrantes .robT .int_Img2 {
-  border-right: 10px solid rgb(16, 16, 16);
-  border-bottom: 10px solid rgb(16, 16, 16);
-}
-.contenedorIntegrantes .robT .int_Img2 img {
-  width: 250px;
-  border: 10px solid yellow;
-}
-.contenedorIntegrantes .robT .textoCuatro p {
-  font-family: "Acme", sans-serif;
-  width: 1500px;
-  font-size: 20px;
-  color: white;
-}
-.contenedorIntegrantes .titulo2 {
-  font-family: "Acme", sans-serif;
-  font-size: 40px;
-  text-align: center;
-  color: white;
-  grid-area: t2;
-}
-.contenedorIntegrantes .cliff {
-  font-family: "Acme", sans-serif;
-  font-size: 30px;
-  color: white;
-  grid-area: cliffT;
-  margin-left: 45px;
-}
-.contenedorIntegrantes .cliffB {
-  display: flex;
-  justify-content: space-evenly;
-  grid-area: cliff;
-}
-.contenedorIntegrantes .cliffB .int_Img2 {
-  border-right: 10px solid rgb(16, 16, 16);
-  border-bottom: 10px solid rgb(16, 16, 16);
-}
-.contenedorIntegrantes .cliffB .int_Img2 img {
-  width: 250px;
-  border: 10px solid yellow;
-}
-.contenedorIntegrantes .cliffB .textoCinco p {
-  font-family: "Acme", sans-serif;
-  width: 1500px;
-  font-size: 20px;
-  color: white;
-}
-.contenedorIntegrantes .jason {
-  font-family: "Acme", sans-serif;
-  font-size: 30px;
-  color: white;
-  grid-area: jasonT;
-  margin-left: 45px;
-}
-.contenedorIntegrantes .jasonN {
-  display: flex;
-  justify-content: space-evenly;
-  grid-area: jason;
-}
-.contenedorIntegrantes .jasonN .textoSeis p {
-  font-family: "Acme", sans-serif;
-  width: 1500px;
-  font-size: 20px;
-  color: white;
-}
-.contenedorIntegrantes .jasonN div a {
-  border-right: 10px solid rgb(16, 16, 16);
-  border-bottom: 10px solid rgb(16, 16, 16);
-}
-.contenedorIntegrantes .jasonN div a img {
-  width: 250px;
-  border: 10px solid yellow;
-}
-.contenedorIntegrantes .dave {
-  font-family: "Acme", sans-serif;
-  font-size: 30px;
-  color: white;
-  grid-area: daveT;
-  margin-left: 45px;
-}
-.contenedorIntegrantes .daveM {
-  display: flex;
-  justify-content: space-evenly;
-  grid-area: dave;
-}
-.contenedorIntegrantes .daveM .int_Img2 {
-  border-right: 10px solid rgb(16, 16, 16);
-  border-bottom: 10px solid rgb(16, 16, 16);
-}
-.contenedorIntegrantes .daveM .int_Img2 img {
-  width: 250px;
-  border: 10px solid yellow;
-}
-.contenedorIntegrantes .daveM .textoSiete p {
-  font-family: "Acme", sans-serif;
-  width: 1500px;
-  font-size: 20px;
   color: white;
 }
 
-.contenedorDiscografia {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 35px;
-  grid-template-areas: "header header header header header" "t1 t1 t1 t1 t1" "kill ride master justice metallica" "load reload anger death hardwired" "season season season season season" "t2 t2 t2 t2 t2" "canciones canciones canciones canciones canciones" "footer footer footer footer footer";
+section .filaUno div p {
+  width: 100%;
+  text-align: start;
 }
-.contenedorDiscografia h1 {
-  font-family: "Acme", sans-serif;
-  font-size: 40px;
-  color: white;
-  margin-left: 70px;
-  grid-area: t1;
-}
-.contenedorDiscografia .album {
-  display: flex;
-  justify-content: space-evenly;
-}
-.contenedorDiscografia .album div a {
-  border-right: 5px solid rgb(16, 16, 16);
-  border-bottom: 5px solid rgb(16, 16, 16);
-}
-.contenedorDiscografia .album div a img {
-  width: 200px;
+section .filaUno div a img {
+  width: 80%;
   border: 5px solid yellow;
+  box-shadow: 10px 10px 15px black;
 }
-.contenedorDiscografia .album p {
-  font-family: "Acme", sans-serif;
-  font-size: 20px;
-  color: white;
-  text-align: center;
-  padding: 10px;
+section .filaUno div a img:hover {
+  transform: skewY(-1deg);
 }
-.contenedorDiscografia .album .season {
-  margin-left: 440%;
+section .filaDos div a img {
+  width: 80%;
+  border: 5px solid yellow;
+  box-shadow: 10px 10px 15px black;
 }
-
-h2 {
-  font-family: "Acme", sans-serif;
-  font-size: 40px;
-  color: white;
-  margin-left: 60px;
-  grid-area: t2;
+section .filaDos div a img:hover {
+  transform: skewY(1deg);
+}
+section .filaDos div p {
+  width: 100%;
+  text-align: end;
 }
 
-.canciones {
-  display: flex;
-  justify-content: space-evenly;
-  grid-area: canciones;
+section div div {
+  width: 100%;
 }
-.canciones div {
-  border-right: 10px solid rgb(16, 16, 16);
-  border-bottom: 10px solid rgb(16, 16, 16);
-  border-radius: 10px;
+section div div a img {
+  border: 5px solid yellow;
+  box-shadow: 10px 10px 15px black;
+  transform: skewY(-0.5deg);
 }
+section div p {
+  font-family: "Acme", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
 .canciones div a iframe {
-  width: 545px;
+  height: 400px;
   border: 5px solid yellow;
+  box-shadow: 10px 10px 15px black;
 }
 
-.contenedorContacto {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 35px;
-  grid-template-areas: "header header" "slider slider" "t_hist t_form" "hist form" "footer footer";
+.album2 a img {
+  border: 45px solid rgb(16, 16, 16);
+  width: 15%;
 }
 
-.slider {
-  width: 1150px;
-  border-right: 10px solid rgb(16, 16, 16);
-  border-bottom: 10px solid rgb(16, 16, 16);
-  grid-area: slider;
-  display: flex;
-  justify-self: center;
+main .slider {
+  width: 100%;
 }
-.slider div .carousel-inner {
-  border: 10px solid yellow;
+main .slider div .carousel-inner {
+  border-bottom: 5px solid yellow;
 }
 
-.tituloHist {
-  font-family: "Acme", sans-serif;
-  font-size: 40px;
+section div p {
+  font-size: 18px;
   color: white;
-  grid-area: t_hist;
-  margin-left: 50px;
-}
-
-.miHistoria {
-  grid-area: hist;
-}
-.miHistoria p {
-  font-size: 20px;
-  color: white;
-  width: 1000px;
-  margin-left: 50px;
   font-family: "Acme", sans-serif;
+  text-align: start;
 }
-
-.tituloForm {
-  font-size: 40px;
+section div .formulario form {
+  font-size: 18px;
   font-family: "Acme", sans-serif;
   color: white;
-  grid-area: t_form;
-  margin-left: 50px;
 }
-
-.formulario {
-  grid-area: form;
-}
-.formulario form {
-  font-size: 20px;
-  font-family: "Acme", sans-serif;
-  color: white;
-  margin-left: 50px;
-}
-.formulario form input {
-  margin-left: 20px;
-}
-.formulario form div input {
-  margin-top: 20px;
-  margin-left: 20px;
-}
-.formulario form .correo input {
+section div .formulario form .correo input {
   width: 290px;
 }
-.formulario form .comentario input {
+section div .formulario form .comentario input {
   height: 100px;
   width: 350px;
 }
-.formulario form .botones {
-  margin-top: 20px;
-  margin-left: 108px;
+section div .formulario form .botones {
+  margin-left: 55px;
+}
+
+.body {
+  background-color: black;
+}
+.body main .james {
+  width: 1010px;
+  position: absolute;
+  left: 430px;
+  border-left: 5px solid rgb(23, 23, 23);
+  border-right: 5px solid rgb(23, 23, 23);
+}
+.body main a {
+  transform: skewY(-8deg);
+  position: absolute;
+  left: 1080px;
+  top: 590px;
+  background-color: yellow;
+  text-decoration: none;
+  font-family: "Acme", sans-serif;
+  color: rgb(23, 23, 23);
+  font-size: 25px;
+  padding: 5px;
+  border: 2px solid rgb(23, 23, 23);
+  border-radius: 5px;
+}
+.body main .bg {
+  width: 1000px;
+  position: absolute;
+  left: 800px;
 }
 
 main .img {
-  grid-area: imagen;
-  justify-self: center;
-  align-self: center;
-  border-right: 10px solid rgb(16, 16, 16);
-  border-bottom: 10px solid rgb(16, 16, 16);
+  border-bottom: 5px solid yellow;
 }
 main .img img {
-  width: 1150px;
-  border: 5px solid yellow;
+  width: 100%;
 }
 
-header {
+main header {
   background-color: yellow;
-  border: 8px solid rgb(23, 23, 23);
-  border-radius: 20px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  grid-area: header;
+  height: 75px;
 }
-header a img {
-  width: 500px;
+main header nav {
+  height: 100%;
 }
-header nav {
-  width: 700px;
+main header nav div {
+  width: 100%;
 }
-header nav ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+main header nav div ul li {
+  font-family: "Acme", sans-serif;
+  font-size: 10px;
+  color: rgb(23, 23, 23);
 }
-header nav ul li a {
+main header a img {
+  width: 40%;
+}
+main header div {
+  text-align: end;
+}
+main header div a {
   font-family: "Acme", sans-serif;
   font-size: 32px;
   text-decoration: none;
@@ -520,205 +253,54 @@ footer p {
   grid-area: footer;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-  .indexContenedor {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 35px;
-    grid-template-areas: "header" "imagen" "titulo1" "items" "titulo2" "redes" "footer";
+@media (max-width: 425px) {
+  main header {
+    height: 30px;
   }
-  .img {
-    border: none;
+  main header a img {
+    width: 50%;
   }
-  .imagenP {
-    width: 100%;
+  main header div {
+    text-align: end;
   }
-  .titulos {
-    font-size: 45px;
+  main header div a {
+    font-family: "Acme", sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(23, 23, 23);
   }
-  .item {
-    padding: 15px;
-    border: 5px solid yellow;
+  main header div a i {
+    display: none;
   }
-  .item li {
-    font-size: 28px;
-  }
-  .redes li {
-    padding: 8px;
-  }
-  .item2 {
-    font-size: 38px;
-  }
-  footer {
-    font-size: 35px;
-  }
-  footer p {
-    font-size: 25px;
-  }
-}
-@media (min-width: 481px) and (max-width: 768px) {
-  .indexContenedor {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 35px;
-    grid-template-areas: "header header" "imagen imagen" "titulo1 titulo1" "items items" "titulo2 titulo2" "redes redes" "footer footer";
-  }
-  .logo {
-    width: 300px;
-  }
-  .paginas {
+  main h2 {
     font-size: 20px;
   }
-  .img {
-    border: none;
+  main .cajas div {
+    width: 100%;
   }
-  .imagenP {
-    margin-left: 50px;
-    width: 85%;
+  main .cajas div ul {
+    border: 2px solid yellow;
+    padding: 5px;
   }
-  .titulos {
-    font-size: 30px;
+  main .cajas div ul li {
+    font-size: 12px;
   }
-  .cajas div {
-    border: none;
-  }
-  .item {
-    padding: 15px;
-  }
-  .item li {
-    font-size: 15px;
-  }
-  .item2 {
-    font-size: 25px;
+  main .shop .item {
+    width: 100%;
   }
   footer {
     font-size: 20px;
+    text-align: center;
+  }
+  footer h2 {
+    font-size: 20px;
+  }
+  footer .navLinks nav ul li a {
+    font-size: 10px;
   }
   footer p {
-    font-size: 15px;
-  }
-}
-@media (min-width: 769px) and (max-width: 1024px) {
-  .indexContenedor {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 35px;
-    grid-template-areas: "header header header" "imagen imagen imagen" "titulo1 titulo1 titulo1" "items items items" "titulo2 titulo2 titulo2" "redes redes redes" "footer footer footer";
-  }
-  .logo {
-    width: 400px;
-  }
-  .paginas {
-    font-size: 25px;
-  }
-  .img {
-    border: none;
-  }
-  .imagenP {
-    width: 90%;
-    margin-left: 50px;
-  }
-  .item {
-    padding: 15px;
-    border: 5px solid yellow;
-  }
-  .item li {
-    font-size: 22px;
-  }
-}
-@media (min-width: 320px) and (max-width: 480px) {
-  .contenedorHistoria {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 35px;
-    grid-template-areas: "header" "imagen" "titulo1" "tyv" "titulo2" "texto2" "footer";
-  }
-  .imagenP {
-    width: 85%;
-    margin-left: 80px;
-  }
-  .tyv {
-    display: inline-block;
-  }
-  .texto_1 p {
-    width: 100%;
-  }
-  .video {
-    border: none;
-  }
-  .video a iframe {
-    margin-top: 35px;
-    margin-left: 175px;
-  }
-}
-@media (min-width: 481px) and (max-width: 768px) {
-  .contenedorHistoria {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 35px;
-    grid-template-areas: "header header" "imagen imagen" "titulo1 titulo1" "tyv tyv" "titulo2 titulo2" "texto2 texto2" "footer footer";
-  }
-  .t_h1 {
-    font-size: 30px;
-  }
-  .tyv {
-    display: inline;
-  }
-  .texto_1 p {
-    font-size: 15px;
-    width: 100%;
-  }
-  .video {
-    border: none;
-  }
-  .video a iframe {
-    margin-top: 35px;
-    margin-left: 50px;
-    width: 550px;
-    height: 350px;
-  }
-  .t_h2 {
-    font-size: 30px;
-  }
-  .texto_2 p {
-    font-size: 15px;
-    width: 100%;
-  }
-}
-@media (min-width: 769px) and (max-width: 1024px) {
-  .contenedorHistoria {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 35px;
-    grid-template-areas: "header header header" "imagen imagen imagen" "titulo1 titulo1 titulo1" "tyv tyv tyv" "titulo2 titulo2 titulo2" "texto2 texto2 texto2" "footer footer footer";
-  }
-  .logo {
-    width: 350px;
-  }
-  .paginas {
-    font-size: 20px;
-  }
-  .imagenP {
-    width: 85%;
-  }
-  .tyv {
-    display: inline;
-  }
-  .texto_1 p {
-    font-size: 20px;
-    width: 100%;
-  }
-  .video {
-    border: none;
-  }
-  .video a iframe {
-    margin-top: 35px;
-    margin-left: 125px;
-    width: 650px;
-    height: 460px;
-  }
-  .texto_2 p {
-    width: 100%;
+    font-size: 10px;
+    text-align: center;
   }
 }
 

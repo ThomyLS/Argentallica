@@ -1,313 +1,90 @@
 //INDEX
 
-@media (min-width:320px) and (max-width:480px) {
+@media (max-width:425px) {
+    main {
+        header {
+            height: 30px;
 
-    .indexContenedor {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 35px;
-        grid-template-areas:
-            "header"
-            "imagen"
-            "titulo1"
-            "items"
-            "titulo2"
-            "redes"
-            "footer"
-        ;
-    }
+            nav {
+            }
 
-    .img {
-        border: none;
-    }
 
-    .imagenP {
-        width: 100%;
-    }
+            a {
+                img {
+                    width: 50%;
+                }
+            }
 
-    .titulos {
-        font-size: 45px;
-    }
+            div {
+                text-align: end;
 
-    .item {
-        padding: 15px;
-        border: 5px solid yellow;
-    }
+                a {
+                    font-family: $mainFonts;
+                    font-size: 12px;
+                    text-decoration: none;
+                    color: $fontNavColor;
+                    
+                    i {
+                        display: none;
+                    }
+                }
+            }
+        }
 
-    .item li {
-        font-size: 28px;
-    }
+        h2 {
+            font-size: 20px;
+        }
 
-    .redes li {
-        padding: 8px;
-    }
+        .cajas {
+            div {
+                width: 100%;
 
-    .item2 {
-        font-size: 38px;
-    }
+                ul {
+                    border: 2px solid yellow;
+                    ;
+                    padding: 5px;
 
-    footer {
-        font-size: 35px;
-    }
+                    li {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
 
-    footer p {
-        font-size: 25px;
-    }
+        .shop {
+            .item {
+                width: 100%;
+            }
+        }
 
-}
 
-@media (min-width:481px) and (max-width:768px) {
-
-    .indexContenedor {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 35px;
-        grid-template-areas:
-            "header header"
-            "imagen imagen"
-            "titulo1 titulo1"
-            "items items"
-            "titulo2 titulo2"
-            "redes redes"
-            "footer footer"
-        ;
-    }
-
-    .logo {
-        width: 300px;
-    }
-
-    .paginas {
-        font-size: 20px;
-    }
-
-    .img {
-        border: none;
-    }
-
-    .imagenP {
-        margin-left: 50px;
-        width: 85%;
-    }
-
-    .titulos {
-        font-size: 30px;
-    }
-
-    .cajas div {
-        border: none;
-    }
-
-    .item {
-        padding: 15px;
-    }
-
-    .item li {
-        font-size: 15px;
-    }
-
-    .item2 {
-        font-size: 25px;
     }
 
     footer {
         font-size: 20px;
-    }
+        text-align: center;
 
-    footer p {
-        font-size: 15px;
-    }
+        h2 {
+            font-size: 20px;
+        }
 
-}
+        .navLinks {
+            nav {
+                ul {
+                    li {
+                        a {
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
 
-@media (min-width:769px) and (max-width:1024px) {
-
-    .indexContenedor {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 35px;
-        grid-template-areas:
-            "header header header"
-            "imagen imagen imagen"
-            "titulo1 titulo1 titulo1"
-            "items items items"
-            "titulo2 titulo2 titulo2"
-            "redes redes redes"
-            "footer footer footer"
-        ;
-    }
-
-    .logo {
-        width: 400px;
-    }
-
-    .paginas {
-        font-size: 25px;
-    }
-
-    .img {
-        border: none;
-    }
-
-    .imagenP {
-        width: 90%;
-        margin-left: 50px;
-    }
-
-    .item {
-        padding: 15px;
-        border: 5px solid yellow;
-    }
-
-    .item li {
-        font-size: 22px;
+        p {
+            font-size: 10px;
+            text-align: center;
+        }
     }
 }
 
 //HISTORIA
-
-@media (min-width:320px) and (max-width:480px) {
-
-    .contenedorHistoria {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 35px;
-        grid-template-areas:
-            "header"
-            "imagen"
-            "titulo1"
-            "tyv"
-            "titulo2"
-            "texto2"
-            "footer";
-
-    }
-
-    .imagenP {
-        width: 85%;
-        margin-left: 80px;
-    }
-
-    .tyv {
-        display: inline-block;
-    }
-
-    .texto_1 p {
-        width: 100%;
-    }
-
-    .video {
-        border: none;
-    }
-
-    .video a iframe {
-        margin-top: 35px;
-        margin-left: 175px;
-    }
-}
-
-@media (min-width:481px) and (max-width:768px) {
-
-    .contenedorHistoria {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 35px;
-        grid-template-areas:
-            "header header"
-            "imagen imagen"
-            "titulo1 titulo1"
-            "tyv tyv"
-            "titulo2 titulo2"
-            "texto2 texto2"
-            "footer footer";
-
-    }
-
-    .t_h1 {
-        font-size: 30px;
-    }
-
-    .tyv {
-        display: inline;
-    }
-
-    .texto_1 p {
-        font-size: 15px;
-        width: 100%;
-    }
-
-    .video {
-        border: none;
-    }
-
-    .video a iframe {
-        margin-top: 35px;
-        margin-left: 50px;
-        width: 550px;
-        height: 350px;
-    }
-
-    .t_h2 {
-        font-size: 30px;
-    }
-
-    .texto_2 p {
-        font-size: 15px;
-        width: 100%;
-    }
-}
-
-@media (min-width:769px) and (max-width:1024px) {
-
-    .contenedorHistoria {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 35px;
-        grid-template-areas:
-            "header header header"
-            "imagen imagen imagen"
-            "titulo1 titulo1 titulo1"
-            "tyv tyv tyv"
-            "titulo2 titulo2 titulo2"
-            "texto2 texto2 texto2"
-            "footer footer footer"
-        ;
-    }
-
-    .logo {
-        width: 350px;
-    }
-
-    .paginas {
-        font-size: 20px;
-    }
-
-    .imagenP {
-        width: 85%;
-    }
-
-    .tyv {
-        display: inline;
-    }
-
-    .texto_1 p {
-        font-size: 20px;
-        width: 100%;
-    }
-
-    .video {
-        border: none;
-    }
-
-    .video a iframe {
-        margin-top: 35px;
-        margin-left: 125px;
-        width: 650px;
-        height: 460px;
-    }
-
-    .texto_2 p {
-        width: 100%;
-    }
-
-}

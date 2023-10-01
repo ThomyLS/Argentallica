@@ -1,90 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Argentallica</title>
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS -->
     <link rel="stylesheet" href="./CSS/main.css">
+    <!-- Favicon -->
     <link rel="shortcut icon" href="../img/Logo_Metallica.png" type="">
-
     <!-- Fuente -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-    <meta name="description" content="Fan Page de Metallica aca podes enterarte de nuevas fechas como tambien de parte de la historia de la banda o de sus integrantes.">
+    <!-- Descripciones -->
+    <meta name="description"
+        content="Fan Page de Metallica aca podes enterarte de nuevas fechas como tambien de parte de la historia de la banda o de sus integrantes.">
+    <!-- Keywords -->
     <meta name="keywords" content="fechas, redes, instagram, youtube, pagina Oficial">
+    <!-- Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
-    <main class="indexContenedor">
-        <header class="header">
-            <a href="index.html">
-                <img class="logo" src="img/Argentallica_letras.png"
+    <main class="container-fluid">
+        <header class="row rounded">
+            <nav class="navbar navbar-expand-lg col-4">
+                <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                </button>
+
+                <div class="collapse navbar-collapse ms-3" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav">
+                        <li><a class="ms-2" href="index.html#">Inicio</a></li>
+                        <li><a class="ms-2" href="html/historia.html#">Historia</a></li>
+                        <li><a class="ms-2" href="html/integrantes.html#">Integrantes</a></li>
+                        <li><a class="ms-2" href="html/discografia.html#">Discografia</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <a class="col-4" href="#">
+                <img class="img-fluid position-absolute z-1 pe-5 animate__animated animate__backInDown" src="img/Argentallica.png"
                     alt="Nombre combinado con Argentina y Metallica">
             </a>
 
-            <nav>
-                <ul class="menu">
-                    <li><a class="paginas" href="index.html"> Inicio </a></li>
-                    <li><a class="paginas" href="html/historia.html"> Historia </a></li>
-                    <li><a class="paginas" href="html/integrantes.html"> Integrantes </a></li>
-                    <li><a class="paginas" href="html/discografia.html"> Discografia </a></li>
-                    <li><a class="paginas" href="html/contacto.html"> Contacto </a></li>
-                </ul>
-            </nav>
+            <div class="pt-2 pe-4 col-4">
+                <a href="html/contacto.html">
+                    <i class="fa-regular fa-envelope me-2" style="color: #191919;"></i>
+                    Contacto
+                </a>
+            </div>
         </header>
 
 
-
         <div class="img">
-            <img class="imagenP" src="img/Metallica.jpg" alt="Integrantes de la banda Metallica">
+            <img class="imagenP img-fluid" src="img/Metallica.jpg" alt="Integrantes de la banda Metallica">
         </div>
 
-        
-        <h2 class="titulos Uno"> Proximas Fechas </h2>
 
-        <div class="cajas">
-            <div>
-                <ul class="item">
-                    <li>8 de octubre 2023 en Indio, California, US</li>
-                    <li>3 de noviembre de 2023 en St. Louis, MI, US</li>
-                    <li>5 de noviembre de 2023 en St. Louis, MI, US</li>
-                    <li>10 de noviembre de 2023 en Detroit, MI, US</li>
-                    <li>12 de noviembre de 2023 en Detroit, MI, US</li>
-                    <li>24 de mayo de 2024 en Munich, DE</li>
-                </ul>
+        <section class="container-fluid">
+            <h2 class="titulos Uno p-5 m-0 text-center"> Proximas Fechas </h2>
+
+            <div class="cajas row">
+                <div class="col-4">
+                    <ul>
+                        <li>8 de octubre 2023 en Indio, California, US</li>
+                        <li>3 de noviembre de 2023 en St. Louis, MI, US</li>
+                        <li>5 de noviembre de 2023 en St. Louis, MI, US</li>
+                        <li>10 de noviembre de 2023 en Detroit, MI, US</li>
+                        <li>12 de noviembre de 2023 en Detroit, MI, US</li>
+                        <li>24 de mayo de 2024 en Munich, DE</li>
+                    </ul>
+                </div>
+
+                <div class="col-4">
+                    <ul>
+                        <li>26 de mayo de 2024 en Munich, DE</li>
+                        <li>7 de junio de 2024 en Helsinki, FI</li>
+                        <li>9 de junio de 2024 en Helsinki, FI</li>
+                        <li>14 de junio de 2024 en Copenhagen, DK</li>
+                        <li>16 de junio de 2024 en Copenhagen, DK</li>
+                        <li>5 de julio de 2024 en Warsaw, PL</li>
+                    </ul>
+                </div>
+
+                <div class="col-4">
+                    <ul>
+                        <li>7 de julio de 2024 en Warsaw, PL</li>
+                        <li>12 de julio de 2024 en Madrid, ES</li>
+                        <li>14 de julio de 2024 en Madrid, ES</li>
+                        <li>4 de agosto de 2024 en Foxborough, MA, US</li>
+                        <li>9 de agosto de 2024 en Chicago, IL, US</li>
+                        <li>16 de agosto de 2024 en Minneapolis, MN, US</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="shop container-fluid">
+            <h2 class="p-5 m-0 text-center"> Merchandising </h2>
+
+            <div class="row m-0 mt-5 d-flex justify-content-evenly">
+                <div class="item col-4 p-0 m-0">
+                    <div class="card">
+                        <img src="./img/Remera1.jpg" class="card-img-top" alt="Remeras de Metallica">
+                        <div class="card-body border-0">
+                            <h5 class="card-title">FLAMING SKULL 1994 TOUR T-SHIRT</h5>
+                            <p class="card-text">The Flaming Skull 1994 Tour T-Shirt returns!
+                            <p class="fs-3">$99.99</p>
+                            </p>
+                            <a href="error404.html" class="btn btn-primary border-0">Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item col-4 p-0 m-0">
+                    <div class="card">
+                        <img src="./img/Remera2.jpg" class="card-img-top" alt="Remeras de Metallica">
+                        <div class="card-body border-0">
+                            <h5 class="card-title">SAD BUT TRUE T-SHIRT</h5>
+                            <p class="card-text">Featuring Sad But True artwork by Pushead
+                            <p class="fs-3">$99.99</p>
+                            </p>
+                            <a href="error404.html" class="btn btn-primary border-0">Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item col-4 p-0 m-0">
+                    <div class="card">
+                        <img src="./img/Remera3.jpg" class="card-img-top" alt="Remeras de Metallica">
+                        <div class="card-body border-0">
+                            <h5 class="card-title">THE FOUR HORSEMEN T-SHIRT</h5>
+                            <p class="card-text">Features the epic artwork of John Baizley, The Four Horsemen.
+                            <p class="fs-3">$99.99</p>
+                            </p>
+                            <a href="error404.html" class="btn btn-primary border-0">Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <ul class="item">
-                    <li>26 de mayo de 2024 en Munich, DE</li>
-                    <li>7 de junio de 2024 en Helsinki, FI</li>
-                    <li>9 de junio de 2024 en Helsinki, FI</li>
-                    <li>14 de junio de 2024 en Copenhagen, DK</li>
-                    <li>16 de junio de 2024 en Copenhagen, DK</li>
-                    <li>5 de julio de 2024 en Warsaw, PL</li>
-                </ul>
+
+
+            <div class="row m-0 mt-5 d-flex justify-content-evenly">
+                <div class="item col-4 p-0 m-0">
+                    <div class="card">
+                        <img src="./img/Remera4.jpg" class="card-img-top" alt="Remeras de Metallica">
+                        <div class="card-body border-0">
+                            <h5 class="card-title">ONE CLASSIC WHITE T-SHIRT</h5>
+                            <p class="card-text">Featuring Pushead's classic One artwork.
+                            <p class="fs-3">$99.99</p>
+                            </p>
+                            <a href="error404.html" class="btn btn-primary border-0">Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item col-4 p-0 m-0">
+                    <div class="card">
+                        <img src="./img/Remera5.jpg" class="card-img-top" alt="Remeras de Metallica">
+                        <div class="card-body border-0">
+                            <h5 class="card-title">METAL UP YOUR ASS T-SHIRT</h5>
+                            <p class="card-text">Features classic Metal Up Your Ass artwork.
+                            <p class="fs-3">$99.99</p>
+                            </p>
+                            <a href="error404.html" class="btn btn-primary border-0">Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item col-4 p-0 m-0">
+                    <div class="card">
+                        <img src="./img/Remera6.jpg" class="card-img-top" alt="Remeras de Metallica">
+                        <div class="card-body border-0">
+                            <h5 class="card-title">HARVESTER OF SORROW T-SHIRTT</h5>
+                            <p class="card-text">Reissue of Metallica's 1988 classic t-shirt! Features Pushead's
+                                Harvester of Sorrow artwork.
+                            <p class="fs-3">$99.99</p>
+                            </p>
+                            <a href="error404.html" class="btn btn-primary border-0">Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <ul class="item">
-                    <li>7 de julio de 2024 en Warsaw, PL</li>
-                    <li>12 de julio de 2024 en Madrid, ES</li>
-                    <li>14 de julio de 2024 en Madrid, ES</li>
-                    <li>4 de agosto de 2024 en Foxborough, MA, US</li>
-                    <li>9 de agosto de 2024 en Chicago, IL, US</li>
-                    <li>16 de agosto de 2024 en Minneapolis, MN, US</li>
-                </ul>
+
+
+            <div class="row m-0 mt-5 d-flex justify-content-evenly">
+                <div class="item col-4 p-0 m-0">
+                    <div class="card">
+                        <img src="./img/Remera7.jpg" class="card-img-top" alt="Remeras de Metallica">
+                        <div class="card-body border-0">
+                            <h5 class="card-title">EST. 1981 T-SHIRT</h5>
+                            <p class="card-text">Features Est. 1981 logo in white.
+                            <p class="fs-3">$99.99</p>
+                            </p>
+                            <a href="error404.html" class="btn btn-primary border-0">Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item col-4 p-0 m-0">
+                    <div class="card">
+                        <img src="./img/Remera8.jpg" class="card-img-top" alt="Remeras de Metallica">
+                        <div class="card-body border-0">
+                            <h5 class="card-title">DAMAGE, INC. T-SHIRT</h5>
+                            <p class="card-text">Features Pushead's Damage Inc. artwork
+                            <p class="fs-3">$99.99</p>
+                            </p>
+                            <a href="error404.html" class="btn btn-primary border-0">Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item col-4 p-0 m-0">
+                    <div class="card">
+                        <img src="./img/Remera9.jpg" class="card-img-top" alt="Remeras de Metallica">
+                        <div class="card-body border-0">
+                            <h5 class="card-title">SCARY GUY CLASSIC VINTAGE T-SHIRT</h5>
+                            <p class="card-text">The classic Scary Guy graphic on a black tee.
+                            <p class="fs-3">$99.99</p>
+                            </p>
+                            <a href="error404.html" class="btn btn-primary border-0">Añadir al carrito</a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-        </div>
+            </div>
+        </section>
+    </main>
 
-        <h2 class="titulos Dos"> Sus Redes </h2>
+    <footer class="mt-5">
+        <h2 class="text-center m-3"> Sus Redes </h2>
 
         <div class="navLinks">
             <nav>
-                <ul class="redes">
+                <ul class="redes m-0 p-0">
                     <li><a class="item2" href="https://www.metallica.com/" target="_blank"> Pagina Oficial </a></li>
                     <li><a class="item2" href="https://www.instagram.com/metallica/" target="_blank"> Instagram</a></li>
                     <li><a class="item2" href="https://www.youtube.com/metallica" target="_blank"> Youtube </a></li>
@@ -92,16 +250,19 @@
             </nav>
         </div>
 
-        <footer>
-            Thrash Power!
+        Thrash Power!
 
-            <p>
-                © Derechos reservados a Tomas Sanchez
-            </p>
-        </footer>
+        <p>
+            © Derechos reservados a Tomas Sanchez
+        </p>
+    </footer>
 
-
-    </main>
+    <!-- BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/d2cf004334.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

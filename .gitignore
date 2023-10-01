@@ -1,5 +1,4 @@
 *.map
-node_modules/
-steps.txt
-Fuentes/
+/node_modules
+*.txt
 Dash-Horizon-Demo.ttf
